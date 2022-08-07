@@ -7,7 +7,7 @@
     background-image: url("../imgs/ambiente.jpg");
 }
 #animacao{
-    outline: 1px solid red;
+   
     width: 1800px;
     height: 400px;
    position: absolute;
@@ -16,7 +16,7 @@
    transform: scale(1.2);
 }
 #containerzenitsu{
-    outline: 1px solid red;
+   
     position: absolute;
     top: 30%;
     animation-name: zenitsumoviment;
@@ -26,7 +26,7 @@
     animation-delay: 2s;
 }
 .zenitsu{
-    outline: 1px solid red;
+    
     width: 200px;
 height: 200px;
 position: absolute;
@@ -43,7 +43,7 @@ top: 0%;
 }
 
 .zenitsushadow{
-    outline: 1px solid red;
+    
     width: 200px;
 height: 200px;
 transform: skew(-20deg) translateX(20%);
@@ -58,7 +58,7 @@ transform: skew(-20deg) translateX(20%);
   animation-delay: 2s;
 }
 .raio1{
-    outline: 1px solid red;
+   
     width: 700px;
     height: 400px;
         animation-name: raio1animation;
@@ -70,7 +70,7 @@ transform: skew(-20deg) translateX(20%);
     
 }
 .raio2{
-    outline: 1px solid red;
+   
     width: 1572px;
     height: 405px;
     
@@ -81,7 +81,7 @@ transform: skew(-20deg) translateX(20%);
     animation-delay: 2.5s;
 }
 .raio3{
-    outline: 1px solid red;
+    
     width: 700px;
     height: 400px;
     position: absolute;
