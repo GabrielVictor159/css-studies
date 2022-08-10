@@ -1,0 +1,61 @@
+#page {
+  width: 1920px;
+  height: 1080px; }
+
+.Menu {
+  position: fixed;
+  left: 0;
+  top: 0;
+  outline: 1px solid red;
+  width: 100%;
+  height: 15%; }
+  .Menu .submenu0 {
+    outline: 1px solid red;
+    width: 100%;
+    height: calc(100%/3); }
+  .Menu .submenu1 {
+    outline: 1px solid red;
+    width: 100%;
+    height: calc(100%/3); }
+  .Menu .submenu2 {
+    outline: 1px solid red;
+    width: 100%;
+    height: calc(100%/3); }
+
+.Footer {
+  position: absolute;
+  top: calc(15% + 150%);
+  outline: 1px solid red;
+  left: 0;
+  width: 100%;
+  height: 15%; }
+  .Footer .subfooter0 {
+    outline: 1px solid red;
+    width: 100%;
+    height: calc(100%/2); }
+  .Footer .subfooter1 {
+    outline: 1px solid red;
+    width: 100%;
+    height: calc(100%/2); }
+
+.Body {
+  position: absolute;
+  left: 0;
+  top: 15%;
+  outline: 1px solid blue;
+  width: 100%;
+  height: 150%; }
+  .Body .subbody0 {
+    outline: 1px solid red;
+    width: 100%;
+    height: calc(100%/3); }
+  .Body .subbody1 {
+    outline: 1px solid red;
+    width: 100%;
+    height: calc(100%/3); }
+  .Body .subbody2 {
+    outline: 1px solid red;
+    width: 100%;
+    height: calc(100%/3); }
+
+/*# sourceMappingURL=Final.css.map */

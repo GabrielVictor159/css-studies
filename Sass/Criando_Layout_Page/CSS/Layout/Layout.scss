@@ -1,0 +1,19 @@
+@import 'Control.scss';
+@import 'Body.scss';
+@import 'Resolucao.scss';
+@import 'Menu.scss';
+@import 'Footer.scss';
+
+$footertopvalue: calc(#{$menuheight} + #{$bodyheight});
+.Menu{
+     @include menuproperties;
+     @include submenu;
+    }
+.Footer{
+    @include Footerproperties;
+    @include subfooter;
+}
+.Body{
+    @include Bodyproperties;
+    @include subbody;
+}

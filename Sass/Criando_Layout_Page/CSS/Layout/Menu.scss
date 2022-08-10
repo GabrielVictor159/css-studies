@@ -1,0 +1,23 @@
+
+@mixin menuproperties{
+
+    position:fixed;
+    left: 0;
+    top: 0;
+    outline:1px solid red;
+    width: 100%;
+    height: $menuheight;
+}
+@mixin submenu{
+    @for $var from 0 to $numerosubmenus {
+        .submenu#{$var}{
+            outline:1px solid red;
+            width: 100%;
+            height: calc(100%/#{$numerosubmenus});;   
+        }
+    }
+    
+   
+    
+ 
+}

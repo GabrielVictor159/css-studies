@@ -1,0 +1,4 @@
+Esse projeto é meu começo com Sass, o intuito é criar um layout de pagina dividida em menu, body e footer, cada um deles sendo possivel quantas subdivisões forem necessarias.
+Vale lembrar ue para se utilizar do Sass deve ter ele instalado na maquina e depois atraves do prompt de comando acessar a pasta CSS do projeto e executar o seguinte comando: sass Final.scss:final.css.
+Essa conversão é o intuito de se usar o Sass no projeto, através das configurações presentes no arquivo Control em CSS/Layout/Control.scss a pagina sera criada com suas subdivisões.
+Não a nenhum conteudo nas divs, pois o intuito era criar um criador de pagina generico.

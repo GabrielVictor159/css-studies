@@ -1,0 +1,19 @@
+
+@mixin Bodyproperties(){
+    
+    position: absolute;
+    left: 0;
+    top: $menuheight;
+    outline:1px solid blue;
+    width: 100%;
+    height: $bodyheight;
+}
+@mixin  subbody(){
+    @for $var from 0 to $numerosubbody {
+        .subbody#{$var}{
+            outline:1px solid red;
+            width: 100%;
+            height: calc(100%/#{$numerosubbody});   
+        }
+    }
+}

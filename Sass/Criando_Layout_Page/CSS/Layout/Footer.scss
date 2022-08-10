@@ -1,0 +1,20 @@
+
+@mixin Footerproperties(){
+   
+        position: absolute;
+        top: $footertopvalue;
+        outline:1px solid red;
+        left: 0;
+        width: 100%;
+        height: $heightfooter;
+        
+}
+@mixin  subfooter(){
+    @for $var from 0 to $numerosubfooter {
+        .subfooter#{$var}{
+            outline:1px solid red;
+            width: 100%;
+            height: calc(100%/#{$numerosubfooter});   
+        }
+    }
+}
